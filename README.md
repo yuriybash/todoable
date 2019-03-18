@@ -75,6 +75,7 @@ client.get_lists(include_items=True)
 
 
 NB 1: in a real life scenario, you have to consider what happens if _some_ subsequent requests fail (e.g. if you can only load 1/2 the associated items) - what's the expected behavior there?
+
 NB 2: alternatively, these could have been `namedtuple`s.
 
 Typical usage looks something like:
